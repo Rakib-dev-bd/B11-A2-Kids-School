@@ -18,7 +18,31 @@
 .grid-cols-2 {
   grid-template-columns: repeat(2, 1fr);
 }
+.grid-cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
 
 .center-text {
   text-align: center;
+}
+
+/* Helper class */
+
+.home {
+  color: rgb(254, 163, 1);
+}
+.about {
+  color: rgb(1, 172, 253);
+}
+
+.facilities {
+  color: rgb(5, 212, 223);
+}
+
+.admission {
+  color: rgb(93, 88, 239);
+}
+
+.black {
+  background-color: #000;
 }
