@@ -43,6 +43,17 @@
   color: rgb(93, 88, 239);
 }
 
+.read-1 {
+  color: rgb(100, 200, 255);
+}
+
+.read-2 {
+  color: rgb(240, 170, 0);
+}
+
+.read-3 {
+  color: rgb(135, 0, 255);
+}
 .card-bg-1 {
   border: 0.94px solid rgb(222, 245, 255);
   border-radius: 18.86px;
@@ -82,6 +93,9 @@
 .story-sub-card-date-1 {
   background: rgb(149, 178, 38);
 }
-.story-sub-card-date-2 .story-sub-card-date-3 .story-sub-card-date-4 .black {
+.story-sub-card-date-2 {
+  background: rgb(93, 88, 240);
+}
+.black {
   background-color: #000;
 }

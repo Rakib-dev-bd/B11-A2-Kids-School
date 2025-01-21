@@ -140,8 +140,8 @@ body {
 
 .stories {
   max-width: 120rem;
-  margin: 5rem auto;
-  padding: 1rem;
+  margin: 0 auto;
+  padding: 1rem 4rem;
   background: url(../assets/bg.png) no-repeat center,
     linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
 }
@@ -231,4 +231,84 @@ body {
   font-size: 1.6rem;
   font-weight: 700;
   padding: 2rem;
+}
+
+/* Footer section started */
+
+.footer {
+  max-width: 144rem;
+  margin: 0 auto;
+  padding: 1rem;
+
+  background: rgb(1, 172, 253);
+  color: rgb(255, 255, 255);
+}
+
+.footer-container {
+  width: 80%;
+  margin: 4rem auto;
+  padding: 6rem 0;
+  gap: 8rem;
+
+  grid-template-columns: repeat(1, 2fr) 1fr 1fr;
+}
+
+.footer-info {
+  flex-direction: column;
+  gap: 2rem;
+  align-self: center;
+}
+.footer-brand {
+  align-items: center;
+}
+
+.footer-logo {
+  width: 6.2rem;
+  height: 6.2rem;
+}
+.footer-logo-name {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.footer-description {
+  font-size: 1.6rem;
+}
+/* Footer about */
+
+.footer-about {
+  /* color: rgb(255, 255, 255); */
+}
+
+.footer-about-heading {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.footer-links {
+  margin-top: 1rem;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.footer-link {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+}
+
+/* Social link */
+
+.footer-social-links {
+  flex-direction: column;
+
+  gap: 1.5rem;
+}
+.footer-social-heading {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.social-links {
+  gap: 1.5em;
 }
