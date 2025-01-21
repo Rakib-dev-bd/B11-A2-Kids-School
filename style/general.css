@@ -79,6 +79,9 @@
     ),
     rgb(255, 255, 255);
 }
-.black {
+.story-sub-card-date-1 {
+  background: rgb(149, 178, 38);
+}
+.story-sub-card-date-2 .story-sub-card-date-3 .story-sub-card-date-4 .black {
   background-color: #000;
 }
